@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "electron-vite dev",
-    "build": "npm run build-logic && electron-builder",
+    "build": "electron-vite build && electron-builder",
     "preview": "electron-vite preview",
     "postinstall": "electron-builder install-app-deps"
   },
