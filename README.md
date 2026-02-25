@@ -41,5 +41,4 @@ npm run dev
 Bash
 npm run build
 📸 Скріншоти
-(Тут можна вставити зображення, яке ви мені надіслали)
-![Dashboard Preview](./assets/screenshot.png)
+./assets/screenshot.png
