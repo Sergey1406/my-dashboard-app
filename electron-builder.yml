@@ -1,0 +1,22 @@
+appId: com.yourname.sysmonitor
+productName: System Monitor Pro
+
+files:
+  - out/**/*
+  - dist/**/*
+  - package.json
+
+win:
+  target:
+    - target: nsis
+  icon: resources/icon.ico
+
+mac:
+  target:
+    - target: dmg
+  category: public.app-category.utilities
+  icon: resources/icon.icns
+  hardenedRuntime: true
+
+directories:
+  output: release
