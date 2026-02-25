@@ -1,4 +1,3 @@
-// 1. Добавляем ipcMain в импорт
 import { app, BrowserWindow, Tray, Menu, nativeImage, ipcMain } from 'electron'
 import { join } from 'path'
 import { is } from '@electron-toolkit/utils'
